@@ -1,0 +1,208 @@
+body {
+    font-family: 'Quicksand', sans-serif;
+}
+
+.header-bg-img {
+    background: url(img/Livello\ 1.png) center no-repeat;
+    background-size: cover;
+}
+
+.block-height {
+    min-height: 740px;
+}
+
+.nav-setting {
+    font-size: 18px;
+    font-family: "QuicksandBold";
+}
+
+h1 {
+    font-size: 60px;
+    font-family: "QuicksandBold";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+
+.p-block1 {
+    font-size: 20px;
+    font-family: "QuicksandBook";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+    text-align: center;
+}
+
+.fa-chevron-down {
+    color: rgb(255, 255, 255);
+    font-size: 34px;
+}
+
+.btn-seeall {
+    font-size: 14px;
+    font-family: "QuicksandBold";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+    border-radius: 3px;
+    background-color: rgb(170, 155, 119);
+    width: 204px;
+    height: 52px;
+}
+
+.hr-left {
+    background-color: rgb(204, 204, 204);
+    width: 100%;
+    height: 2px;
+    margin-left: 35px;
+}
+
+.hr-right {
+    background-color: rgb(204, 204, 204);
+    width: 100%;
+    height: 2px;
+    margin-right: 35px;
+}
+
+.next-page {
+    font-size: 16px;
+    font-family: "QuicksandBold";
+    color: rgb(170, 155, 119);
+    line-height: 1.2;
+}
+
+.fa-angle-left, .fa-angle-right {
+    color: rgb(170, 155, 119);
+    font-size: 16px;
+}
+
+.img-cloth {
+    background-color: rgb(245, 246, 247);
+    width: 250px;
+    height: 320px;
+    display: flex;
+    flex-flow: column;
+    justify-content: space-around;
+    align-items: center;
+    border: 6px solid transparent;
+    border-radius: 3px;
+}
+
+.img-cloth:hover {
+    border-color: rgb(170, 155, 119);
+}
+
+.circle-color {
+    opacity: 0;
+}
+
+.img-cloth:hover .circle-color {
+    opacity: 1;
+}
+
+.down-2 {
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+}
+
+.size-button {
+    font-size: 16px;
+    font-family: "QuicksandBold";
+    color: rgb(66, 66, 66);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.t-shirt {
+    font-size: 18px;
+    font-family: "QuicksandBold";
+    color: rgb(170, 155, 119);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.money {
+    font-size: 22px;
+    font-family: "QuicksandBold";
+    color: rgb(66, 66, 66);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.bg-color-container {
+    background-color: rgb(170, 155, 119);
+}
+
+.h3-property {
+    font-size: 20px;
+    font-family: "QuicksandBold";
+    color: rgb(131, 118, 89);
+    text-transform: uppercase;
+    line-height: 1.2;
+    text-align: center;
+    position: absolute;
+    top: -20px;
+    left: 0;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    z-index: 999;
+}
+
+h3 {
+    padding: 0 15px 0 15px;
+    background-color: #aa9b77;
+}
+
+.p-lorem-property {
+    font-size: 16px;
+    font-family: "QuicksandBold";
+    color: rgb(66, 66, 66);
+    line-height: 1.5;
+    text-align: center;
+}
+
+.main-border {
+    border: 2px solid rgb(145, 131, 99);
+    padding: 30px 85px;
+    position: relative;
+}
+
+.fa-twitter {
+    color: rgb(66, 66, 66);
+    font-size: 29px;
+}
+
+.p-commerce {
+    font-size: 16px;
+    font-family: "QuicksandBold";
+    color: rgb(255, 255, 255);
+    line-height: 1.2;
+}
+
+.bg-block5 {
+    background-color: rgb(83, 82, 83);
+}
+
+h4 {
+    font-size: 20px;
+    font-family: "QuicksandBold";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 1.2;
+}
+
+.p-footer {
+    font-size: 14px;
+    font-family: "QuicksandBold";
+    color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    line-height: 2;
+    text-align: right;
+}
+
+.p-footer-two {
+    font-size: 18px;
+    font-family: "QuicksandBold";
+    color: rgb(255, 255, 255);
+    line-height: 1.556;
+    text-align: right;
+}
